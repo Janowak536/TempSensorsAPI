@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TempSensors.Api", "TempSensors.Api\TempSensors.Api.csproj", "{1CA1998A-4574-47D6-9AD4-FEE474FEB413}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C84FB665-68C4-4987-8310-DCEE2958113A} = {C84FB665-68C4-4987-8310-DCEE2958113A}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TempSensors.Core", "TempSensors.Core\TempSensors.Core.csproj", "{C84FB665-68C4-4987-8310-DCEE2958113A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TempSensors.Infrastructure", "TempSensors.Infrastructure\TempSensors.Infrastructure.csproj", "{64922865-78BF-45B1-99E2-DEE9DCA17232}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CA1998A-4574-47D6-9AD4-FEE474FEB413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CA1998A-4574-47D6-9AD4-FEE474FEB413}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CA1998A-4574-47D6-9AD4-FEE474FEB413}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CA1998A-4574-47D6-9AD4-FEE474FEB413}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C84FB665-68C4-4987-8310-DCEE2958113A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C84FB665-68C4-4987-8310-DCEE2958113A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C84FB665-68C4-4987-8310-DCEE2958113A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C84FB665-68C4-4987-8310-DCEE2958113A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64922865-78BF-45B1-99E2-DEE9DCA17232}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64922865-78BF-45B1-99E2-DEE9DCA17232}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64922865-78BF-45B1-99E2-DEE9DCA17232}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64922865-78BF-45B1-99E2-DEE9DCA17232}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51B4EB72-14A2-40C7-B33A-46C7688D3E3C}
+	EndGlobalSection
+EndGlobal
